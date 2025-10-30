@@ -18,7 +18,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Models\ best1.pt")
+model_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "Models", "best1.pt")
+
 model = YOLO(model_path)
 @app.post("/detect")
 async def detect(file: UploadFile = File(...)):
