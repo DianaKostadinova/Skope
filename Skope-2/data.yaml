@@ -1,0 +1,16 @@
+names:
+- Philip II of Macedonia
+- alexander the great monument
+- old railway
+- stone bridge
+- triumphal arch
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: skope-aik4d
+  url: https://universe.roboflow.com/skope/skope-aik4d/dataset/2
+  version: 2
+  workspace: skope
+test: ../test/images
+train: ../train/images
+val: ../valid/images

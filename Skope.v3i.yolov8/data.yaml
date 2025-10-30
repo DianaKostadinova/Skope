@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Philip II of Macedonia', 'alexander the great monument', 'old railway', 'stone bridge', 'triumphal arch']
+
+roboflow:
+  workspace: skope
+  project: skope-aik4d
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/skope/skope-aik4d/dataset/3
